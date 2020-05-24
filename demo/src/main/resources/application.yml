@@ -14,6 +14,9 @@ spring:
       file-size-threshold: 5MB
 
 #设置jsp的路径，前后缀
+  freemarker:
+    suffix: .ftl
+
   
 
 
