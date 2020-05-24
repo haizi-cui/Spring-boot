@@ -13,6 +13,7 @@ public class Pagcontroller {
     @RequestMapping("/page")
     public String showPage(){
 
+        System.out.println(123);
         return "index.html";
     }
 }
