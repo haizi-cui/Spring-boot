@@ -1,0 +1,20 @@
+#tomcat端口
+server:
+  port: 8888
+#中文乱码
+  servlet:
+    encoding:
+      force: true
+
+#文件上传大小控制,一次多个以及单词
+spring:
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      file-size-threshold: 5MB
+
+#设置jsp的路径，前后缀
+  
+
+
+
