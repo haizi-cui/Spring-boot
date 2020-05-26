@@ -17,6 +17,7 @@ spring:
   freemarker:
     suffix: .ftl
 
+
   
 
 
